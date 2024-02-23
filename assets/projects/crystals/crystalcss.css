@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.banner {
+    background-image: url(crystalbanner.jpg);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.caption span.border {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 3px solid palevioletred;
+    color: lightskyblue;
+    padding: 20px;
+    font-size: 75px;
+    letter-spacing: 10px;
+}
+
+.caption2 {
+    position: absolute;
+    left: 0;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+}
+
+.caption2 span.border {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 3px solid rgb(216, 111, 146);
+    color: rgb(135, 206, 250);
+    padding: 20px;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+ul {
+    columns: 2;
+    padding: 5px;
+}
+
+li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+caption {
+    text-align: center;
+    font-size: 72px;
+}
+
+.header {
+    background-color: white;
+    text-align: center;
+    padding: 25px 25px; 
+    font-size: x-large;
+}
+
+.jumbotron {
+    background-color: rgba(216, 111, 250, 0.35) !important;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.col-md-12 h1 {
+    font-size: 45px;
+}
+
+.panel-heading {
+    font-size: 25px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.wrap > div {
+    width: 100%;
+}
+
+.bgimg-1 {
+    position: sticky;
+    background-image: url(blackonyx.jpg);
+    min-height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.onyx {
+    margin: auto;
+    position: relative;
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.93);
+    padding: 25px 40px;
+    color: orangered;
+}
+
+.bgimg-2 {
+    position: sticky;
+    background-image: url(soldiate.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sodalite {
+    margin: auto;
+    position: sticky;
+    width: 25%;
+    background-color: rgba(0, 0, 139, 0.93);
+    padding: 25px 40px;
+    color: lightblue;
+}
+
+.bgimg-3 {
+    position: sticky;
+    background-image: url(larimar.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.larimar {
+    margin: auto;
+    position: sticky;
+    width: 25%;
+    background-color: rgba(135, 206, 250, 0.93);
+    padding: 25px 40px;
+    color: darkslateblue;
+}
+
+.bgimg-4 {
+    background-image: url(tigerseye.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tiger {
+    margin: auto;
+    position: sticky;
+    width: 25%;
+    background-color: rgba(139, 69, 19, 0.93);
+    padding: 25px 40px;
+    color: tan;
+}
+
+.bgimg-5 {
+    background-image: url(moonstone.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.moonstone {
+    margin: auto;
+    position: sticky;
+    width: 25%;
+    background-color: rgba(250, 250, 210, 0.93);
+    padding: 25px 40px;
+    color: sienna;
+}
+
+
+.bgimg-6 {
+    background-image: url(sunstone.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sunstone {
+    margin: auto;
+    position: sticky;
+    width: 25%;
+    background-color: rgba(188, 143, 143, 0.929);
+    padding: 25px 40px;
+    color: #faebd7;
+}
+
+.bgimg-7 {
+    background-image: url(shungite.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shungite {
+    margin: auto;
+    position: sticky;
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.93);
+    padding: 25px 40px;
+    color: tan;
+}
+
+.bgimg-8 {
+    background-image: url(amethyst.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.amethyst {
+    margin: auto;
+    position: sticky;
+    width: 25%;
+    background-color: rgba(153, 50, 204, 0.93);
+    padding: 25px 40px;
+    color: lightpink;
+}
+
+.bgimg-9 {
+    background-image: url(selenite.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.selenite {
+    margin: auto;
+    position: sticky;
+    width: 25%;
+    background-color: rgba(245, 222, 179, 0.93);
+    padding: 25px 40px;
+    color: darkgoldenrod;
+}
+
+.bgimg-10 {
+    background-image: url(peridot.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.peridot {
+    margin: auto;
+    position: sticky;
+    width: 25%;
+    background-color: rgba(173, 255, 47, 0.93);
+    padding: 25px 40px;
+    color: green;
+}
+
+.bgimg-11 {
+    background-image: url(flourite.jpeg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flourite {
+    margin: auto;
+    position: sticky;
+    width: 25%;
+    background-color: rgba(97, 56, 83, 0.93);
+    padding: 25px 40px;
+    color: #c0b6cd;
+}
+
+footer {
+    background-image: url(crystalbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15%;
+    width: 100%;
+}
+
+.top {
+    display: block;
+    flex-wrap: nowrap;
+    text-align: center;
+    position: absolute;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 3px solid palevioletred;
+    color: lightskyblue;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    margin-top: 35px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    left: 25%;
+    width: 50%;
+}

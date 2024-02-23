@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Home Page">
+        <meta name="keywords" content="HTML">
+        <meta name="author" content="Bekka Reffett">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!--CSS Styles -->
+        <link rel="stylesheet" href="assets/css/styles.css" />
+    </head>
+    <body>
+        <header>
+            <!-- Navbar -->
+            <nav>
+                <h1>BEKKA KAY REFFETT</h1>
+                <ul class="navigation">
+                    <li><a href="#about" class="nav-link hover-underline-animation ">About Me</a></li>
+                    <li><a href="#skills" class="nav-link hover-underline-animation">My Skills</a></li>
+                    <li><a href="#projects" class="nav-link hover-underline-animation">My Projects</a></li>
+                    <li><a href="#resume" class="nav-link hover-underline-animation">Resume</a></li>
+                    <li><a href="#contact" class="nav-link hover-underline-animation">Contact Me</a></li>
+                </ul>
+                <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+                </button>
+            </nav>
+        </header>
+        <main>
+            <!--About Me-->
+            <section id="about">
+                <img src="assets/images/bekka.jpg" alt="Bekka Kay Reffett">
+                <h3>Contact Info:</h3>
+                <p>Phone Number: +1(815)904-3020</p>
+                <p>Email: <a href="bekkakreffett@outlook.com">bekkakreffett@outlook.com</a></p>
+                <p>Mission/Objective Statement: I am looking for a job that will challenge and push me to be the very best. I want to learn and grow as a developer. I am open to learning new things and willing to take on any challenge given to me. I want a job that is remote in order for me to visit my family and friends since work/life balance is important to me.</p>
+            </section>
+
+            <!--Skills Section-->
+
+            <!--Projects Section-->
+            <section id="projects">
+                <h1>My Past Projects</h1>
+                <section class="projects" id="projects">
+                    <h2 class="projects-title">Some of my Recent Projects</h2>
+                    <div class="projects-container">
+                      <div class="project-container project-card">
+                        <img src="assets/images/zengarden.png" alt="expense-tracker" loading="lazy" class="project-pic" />
+                        <h3 class="project-title">CSS Zen Garden</h3>
+                        <p class="project-details">
+                          Project Info Here!
+                        </p>
+                        <a href="assets/projects/csszengarden/index.html" target="_blank" class="project-link">Check it Out</a>
+                      </div>
+                      <div class="project-container project-card">
+                        <img src="assets/images/illinois.png" alt="netflic-clone" loading="lazy" class="project-pic" />
+                        <h3 class="project-title">Illinois Info Page</h3>
+                        <p class="project-details">
+                          Project Info Here!
+                        </p>
+                        <a href="assets/projects/illinoisinfo/illinois.html" target="_blank" class="project-link">Check it Out</a>
+                      </div>
+                      <div class="project-container project-card">
+                        <img src="assets/images/crystals.png" alt="greeny-earth" loading="lazy" class="project-pic" />
+                        <h3 class="project-title">Favorite Crystals</h3>
+                        <p class="project-details">
+                          Project Info Here!
+                        </p>
+                        <a href="assets/projects/crystals/index.html" target="_blank" class="project-link">Check it Out</a>
+                      </div>
+                    </div>
+            </section>
+
+            <!--Resume Section-->
+            <section id="resume">
+                <h1>My Resume</h1>
+                <embed src="assets/docs/resume.pdf" width="1000px" height="700px">
+            </section>
+
+             <!-- Contact section -->
+            <section class="contact" id="contact">
+                <h2>Get In Touch With Me</h2>
+                    <form action="https://formspree.io/f/xvoeroqr" method="POST">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field" required>
+                      </div>
+                      <div class="form-control">
+                        <label for="email">Email</label>
+                        <input
+                          type="email"
+                          id="email"
+                          name="sender-email"
+                          placeholder="Enter Your Email"
+                          class="input-field"
+                          required
+                        />
+                      </div>
+                      <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea
+                          id="message"
+                          cols="60"
+                          rows="10"
+                          placeholder="Enter Your Message"
+                          name="message"
+                          class="input-field"
+                          required
+                        ></textarea>
+                      </div>
+                      <input
+                        type="submit"
+                        value="Submit"
+                        id="submit-btn"
+                        class="submit-btn"
+                      />
+                    </form>
+                  </div>
+                </div>
+              </section>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
