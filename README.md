@@ -1,2 +1,3 @@
 # portfolio
-This is my portfolio website.
+Author: Bekka Kay Reffett
+This is my starter code for my portfolio website.
